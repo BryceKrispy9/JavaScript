@@ -25,3 +25,16 @@ console.log(nameTwo);
 // Symbol
 var mySym = Symbol('foo bar');
 console.log(mySym);
+
+
+//Checking Data Types
+typeof 12; // Number
+typeof 'Astros'; // String
+typeof true; // Boolean
+typeof { name: "Bryce" }; // Object
+
+var age;
+typeof age;
+
+age = null;
+typeof age; // Null will return object
