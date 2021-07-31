@@ -33,3 +33,15 @@ var str2 = str.concat(' again and again');
 str2.indexOf('again'); // Returns 45
 
 str2.lastIndexOf('again'); // Looks through whole string. Once it find the last instance of what it's looking for, it returns that index
+
+str.slice(10); // Return all of the items to the right of the number we end
+str.slice(-8); // Right to left
+str.slice(4, 9);
+
+var messyString = '    foo     ';
+messyString.trim(); // Cleans up user data
+
+str.slice(4, 10).trim(); // Can be chained together
+
+str.toUpperCase(); // UPPER case
+str.toLowerCase(); // lower case
