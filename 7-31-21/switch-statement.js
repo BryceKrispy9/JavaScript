@@ -1,10 +1,12 @@
-var dataPoint = 'number';
+var dataPoint = 5;
     
-    switch (typeof dataPoint) {
-    case "string":
-        console.log("5");
-        break;
-}
+  switch (typeof dataPoint) {
+      case "string":
+          return 'number';
+          break;
+    }
+
+    // ?????????
 
 
 
