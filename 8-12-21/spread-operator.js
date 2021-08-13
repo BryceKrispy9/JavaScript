@@ -36,6 +36,8 @@ console.log(starter);
 console.log(closer);
 console.log(relivers);
 
+
+
 // function yourTest() {
 //     const highscore = [237.0198, 256.1, 234.846, 237.21, 256.654];
     
