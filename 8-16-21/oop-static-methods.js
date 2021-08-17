@@ -1,30 +1,53 @@
-class Instructor {
-    constructor({ name, role = 'assistant' }) {
-      this.name = name;
-      this.role = role;
-    }
-  
-    renderDetails() {
-        console.log(`${this.name}: ${this.role}`);
-    }
+// class Instructor {
+//     constructor({ name, role = 'assistant' }) {
+//       this.name = name;
+//       this.role = role;
+//     }
+        // Instance method
+//     renderDetails() {
+//         console.log(`${this.name}: ${this.role}`);
+//     }
+        // Base case static method
+//     static helloWorld() { // Does not require object to work
+//         console.log('Hi there');
+//     }
+        // Static method
+//     static canTeach(instructor) {
+//         return (instructor.role === 'classroom');
+//     }
+// }
 
-    static helloWorld() { // Does not require object to work
-        console.log('Hi there');
-    }
+// // Instructor.helloWorld();
 
-    static canTeach(instructor) {
-        return (instructor.role === 'classroom');
-    }
+// let jake = new Instructor({ 'name': 'Jake', 'role': 'classroom' });
+// console.log(
+//     `${jake.name} can teach: ${Instructor.canTeach(jake)}`
+// );
+
+// let bryce = new Instructor({ 'name': 'Bryce' });
+// console.log(
+//     `${bryce.name} can teach: ${Instructor.canTeach(bryce)}`
+// );
+
+
+
+class Home {
+	constructor({ type, payment = "renting" }) {
+		this.type = type;
+		this.payment = payment;
+	}
+
+	static homeImprovement(yourHome) {
+		return (yourHome.payment === 'mortgage')
+	}
 }
 
-// Instructor.helloWorld();
-
-let jake = new Instructor({ 'name': 'Jake', 'role': 'classroom' });
+let choice1 = new Home({ 'type': 'house', 'payment': 'mortgage' });
 console.log(
-    `${jake.name} can teach: ${Instructor.canTeach(jake)}`
+    `${Home.homeImprovement(choice1)}`
 );
 
-let bryce = new Instructor({ 'name': 'Bryce' });
+let choice2 = new Home({ 'type': 'apartment' });
 console.log(
-    `${bryce.name} can teach: ${Instructor.canTeach(bryce)}`
+    `${Home.homeImprovement(choice2)}`
 );
