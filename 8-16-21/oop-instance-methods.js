@@ -30,3 +30,5 @@ class Car {
 
 const model3 = new Car({year: 2021, brand: 'Tesla', poweredBy: 'electricity'});
 console.log(model3.carSpecs());
+
+// A method that can be called on a specific instance (Instance Method)
