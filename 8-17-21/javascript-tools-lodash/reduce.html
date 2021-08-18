@@ -6,10 +6,43 @@
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
   </head>
   <body>
+      <a href="https://google.com">https://google.com</a>
   </body>
 
   <script>
-    // reduce
-    
+    // reduce - Ability to keep track of things (keeps running total)
+    // const sum = _.reduce([1, 2, 3], function(total, num) { // needs array or collection, function(with two values) - total keeps a running track
+    //     return total + num;
+    // }, 0); // Whatever you want the starting number to be
+
+    // console.log(sum); // Outputs 6
+
+
+    // const homerunStats = [
+    //   { name: 'Bregman, A', hr: 19 },
+    //   { name: 'Altuve, J', hr: 24 },
+    //   { name: 'Springer, G', hr: 34 },
+    //   { name: 'Gurriel, Y', hr: 18 },
+    //   { name: 'Gonzalez, M', hr: 23 }
+    // ];
+
+    // const totalHomeruns = _.reduce(homerunStats, function(total, player) {
+    //     return total + player.hr;
+    // }, 0);
+
+    // console.log(totalHomeruns); // Outputs 118
+
+
+    const links = [
+      "https://google.com",
+      "https://devcamp.com",
+      "https://airbnb.com"
+    ];
+
+    const webLinks = _.reduce(links, function(total, link) {
+      return `<a href='${link}'>${link}</a><br>`.concat(total);
+    }, '');
+
+    console.log(webLinks);
   </script>
 </html>
