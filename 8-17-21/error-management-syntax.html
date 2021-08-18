@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Basic Error</title>
+  </head>
+  <body>
+  </body>
+
+  <script>
+    function siteComponent(func) {
+        return func();
+    }
+
+    widget = () => {
+        return '<div>Hi there</div>';
+    }
+
+    try {
+        console.log(siteComponent('oops'));
+    } catch(error) { // This only occurs if an error occurs
+        console.log('An error occured with the siteComponent', error);
+    }
+    // console.log(siteComponent(widget)); // Widget function gets passed into the siteComponent function
+  </script>
+</html>
