@@ -17,7 +17,8 @@
     ];
 
     const webLinks = _.reduce(links, function(total, link) {
-      return `<a href='${link}'>${link}</a><br>`.concat(total);
+        debugger; // Commands in web console: content, link, links
+      return `<a href='${link}'>${link}</a>`.concat(total);
     }, '');
 
     
