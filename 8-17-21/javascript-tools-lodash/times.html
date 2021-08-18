@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lodash</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+  </head>
+  <body>
+  </body>
+
+  <script>
+      // Times
+        randNumber = () => {
+            return Math.round(Math.random() * 100);
+        }
+
+        const sampleNumbers = _.times(5, randNumber); // times takes in how many times you want to do something and the function name - stores as array
+
+        console.log(sampleNumbers);
+  </script>
+</html>
