@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/BryceKrispy9/brycekrispy-js-footer/issues"
   },
-  "homepage": "https://github.com/BryceKrispy9/brycekrispy-js-footer#readme"
+  "homepage": "https://github.com/BryceKrispy9/brycekrispy-js-footer#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }
