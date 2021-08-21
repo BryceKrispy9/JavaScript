@@ -8,5 +8,5 @@ var moment = require('moment'); // Older version of import, needed to be importe
  * @return {string}
  */
 exports.footer = function (name) { // Older way to export function
-    return "Copyright " + moment().format('YYYY') + " " + name + " All rights reserved";
+    return "Copyright " + moment().format('YYYY') + " " + name + " All rights reserved"; // Date is auto-generated
 };
