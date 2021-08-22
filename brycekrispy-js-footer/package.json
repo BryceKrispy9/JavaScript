@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BryceKrispy9/JavaScript/brycekrispy-js-footer"
+    "url": "git+https://github.com/BryceKrispy9/brycekrispy-js-footer.git"
   },
   "keywords": [
     "footer"
@@ -16,10 +16,7 @@
   "author": "Bryce <brycepearson09@gmail.com> (https://www.npmjs.com/~brycekrispy)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BryceKrispy9/JavaScript/brycekrispy-js-footer/issues"
+    "url": "https://github.com/BryceKrispy9/brycekrispy-js-footer/issues"
   },
-  "homepage": "hhttps://github.com/BryceKrispy9/JavaScript/brycekrispy-js-footer#readme",
-  "dependencies": {
-    "moment": "^2.29.1"
-  }
+  "homepage": "https://github.com/BryceKrispy9/brycekrispy-js-footer#readme"
 }
