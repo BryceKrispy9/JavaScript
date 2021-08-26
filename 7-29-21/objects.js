@@ -9,7 +9,7 @@ var user = {
     }
 }
 
-user.grades.coding = 99; // Adds a new key value pair inside of grades (WE CANNOT GO BACK AND CHANGE ORIGINAL CODE)
+// user.grades.coding = 99; // Adds a new key value pair inside of grades (WE CANNOT GO BACK AND CHANGE ORIGINAL CODE)
 
 console.log(user.grades); // User object
 console.log(user.grades.math); // Inside nested object
