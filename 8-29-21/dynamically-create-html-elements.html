@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title></title>
+</head>
+
+<body>
+  <div class="widget">
+      <input type="text" id="chat-input">
+      <button id="msgBtn" onclick = "sendMessage()">Submit</button>
+
+      <div class="chat-wrapper"></div>
+  </div>
+</body>
+
+<script>
+    function sendMessage() {
+        const newDiv = document.createElement('div'); // Creating new div
+        newDiv.classList.add('chatMsg'); // Adding class to div to style later
+        let chatInput = document.querySelector('#chat-input').value; // Grabbing input value
+        const newContent = document.createTextNode(chatInput); // Creating text node
+        newDiv.appendChild(newContent); // SLide content into new div
+        
+
+        const widget = document.querySelector('.widget');
+        let chatWrapper = document.querySelector('#chatWrapper'); // Keeps submit button to the side
+        document.querySelector('#chat-input').value = ''; // When you hit submit, the button clears out
+        
+        if (document.querySelectorAll('.chatMsg').length > 0) {
+            chatWrapper = document.querySelectorAll('.chatMsg')[0];
+        }
+
+        widget.insertBefore(newDiv, chatWrapper); // Creating new divs on the fly
+    }
+</script>
+
+</html>
