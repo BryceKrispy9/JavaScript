@@ -1,0 +1,11 @@
+Classifiers help us identify components + are abstract (Classify items)
+Used by:
+Class
+Interface
+Association
+DataType
+Actor
+Use Classifiers
+Artifact
+Component
+Signal
