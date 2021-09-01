@@ -1,0 +1,13 @@
+Frames help you encapsulate view components + provide context
+What type of system it represents and the diagram it uses
+Implemented through headings and descriptive notation
+
+Diagram Mapping:
+act = activity
+class = class
+cmp = component
+dep = deployment
+sd = interaction (Sequence Diagram)
+pkg = package
+stm = state machine
+uc = use case
