@@ -1,0 +1,11 @@
+The simplest solution is the best one
+
+Representaional
+State
+Transfer
+
+1. POST
+2. GET
+3. PUT
+4. Patch
+5. Delete
