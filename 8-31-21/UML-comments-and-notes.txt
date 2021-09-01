@@ -1,0 +1,2 @@
+Notes are descriptive markup - uses dotted line to element
+Communication clarity
