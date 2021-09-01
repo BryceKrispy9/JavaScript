@@ -1,0 +1,2 @@
+Represents attributes of an element (Establish naming conventions**)
+Name and optional attributes
