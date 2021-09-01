@@ -1,0 +1,8 @@
+Unified Modeling Language
+
+Allows you to develop a plan to visualize your code and be able to model your systems before worrying about the actual code.
+
+-----
+
+Before you touch any code, build an activity flow (Flowcharts)
+Can be helpful when showing someone who is wanting you to build them an app
