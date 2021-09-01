@@ -6,3 +6,12 @@ Allows you to develop a plan to visualize your code and be able to model your sy
 
 Before you touch any code, build an activity flow (Flowcharts)
 Can be helpful when showing someone who is wanting you to build them an app
+
+The six common elements are we’re going to walk through are:
+
+Frames
+Classifiers
+Stereotypes
+Comments
+Dependencies
+Features (which are also called Properties)
