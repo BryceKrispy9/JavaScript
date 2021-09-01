@@ -1,0 +1,3 @@
+Foo bar is just a placeholder
+
+Use arguments or function names that are meaningful, more real life scenario
