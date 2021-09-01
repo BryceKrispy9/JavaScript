@@ -1,0 +1,4 @@
+Dependencies denote coupling (Copuling: gives us the ability to see how badly one component needs another component)
+Dotted line with an open arrow ----->
+
+Helps us know which part of application needs another part
