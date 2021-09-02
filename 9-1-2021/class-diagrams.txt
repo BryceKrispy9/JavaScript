@@ -1,0 +1,11 @@
+1. Name - topic
+Visibility[+, -, # will allow you to determine that]
+
+2. Attribute
+Used to build Attributes with the data type
++ = public
+# = protected
+- = private
+
+3. Operations
+Functions or Operations
