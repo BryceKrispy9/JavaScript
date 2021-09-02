@@ -1,0 +1,17 @@
+Association - How one class is connected to another
+1. Guide belongs to topic
+2. Topic has many guides
+3. A guide has many and belongs to tags
+4. A tag has many and belongs to guides
+
+Multiplicity
+1. Topic can have 1 or more guides
+2. There is always a topic for a guide
+3. A guide can have 0 or more tags
+4. There is always a guide for a tag (* is when a guide can have many tags)
+
+Navigability - Takes one class and can communicate with any other classes
+1. You can find all of the guides for a topic
+2. You can find all of the tags for a topic through a guide
+3. You can find a guide's topic
+4. You can find all tags associated with a guide
