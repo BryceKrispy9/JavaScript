@@ -1,0 +1,43 @@
+How system should behave/interact with other systems/users
+
+Activity Diagrams (**Flowcharts**)
+Used for people who are not as technical
+Used to understand what is happening at each users lifecycle or the systems workflow
+
+1. Initial State or start point
+2. Activity or Action State
+3. Action Flow
+4. Decisions and Branching
+5. Guards
+6. Final State or End Point
+
+-----
+
+Use Case Diagrams
+Shows what users have access to (Administrator, Manager, customer, etc)
+
+1. Use cases
+2. Actors
+3. Subsystems
+4. Relationship
+
+-----
+
+State Machine
+Visualize what data and actions look like in various stages during the softwares lifecycle
+
+1. Entry Point
+2. Choice
+3. Constraint
+4. State
+5. Transition
+
+-----
+
+Sequence
+Speaks to how the code needs to operate
+
+1. Class roles of participants
+2. Activation r Execution Occcurrence
+3. Messages
+4. Lifelines
