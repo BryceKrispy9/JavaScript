@@ -1,0 +1,53 @@
+Class Diagram
+1. What type of data (Name)
+2. How you want the elements to be associated with each other (Attributes)
+3. Core operations (Operations or functions)
+
+When building a function, database itself, this can be used
+
++ sign means the method/function sis available to outside classes
+- sign means that the method (operation) only available to topic
+
+-----
+
+Deployment Diagram
+Gives us the ability to model how the system architecture should be configured
+
+1. Nodes
+2. Components
+3. Artifacts
+4. Links
+5. Dependencies
+6. Associations
+
+CI Server (Production server[Continuous]) 
+-Has components inside
+-Runs tests
+-Guide and protect Deployment
+
+^ Connects to staging server
+-AppServer
+-Saves Nodes, Gulp, etc
+
+^ Pre-Production
+-QA testing
+
+^ Production ENV
+-Live and available
+
+
+-----
+
+Package Diagram
+
+1. Types
+2. Classifier
+3. Class
+4. Use classes
+5. Component
+6. Package
+7. Constraint
+8. Dependency (Dotted lines with arrow)
+9. Event
+
+Used when building a code library when another application needs to use
