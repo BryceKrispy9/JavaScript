@@ -1,0 +1,3 @@
+<<notify>> is a relationship between one process and another one
+
+UML simplifies writing out a project or a class using diagrams
