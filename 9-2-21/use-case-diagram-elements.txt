@@ -1,0 +1,14 @@
+Elements
+Set up authorization rules and illustrate what type of features an individual or client will have access to
+
+1. Use Cases
+Represented by a circle and typically have an action ('get' or actions messages)
+
+2. Actors
+Admin, Customer, API Client
+
+3. Sub systems
+Represented by large rectangular boxes with use cases inside of them (Help you see wherre these types of actions or use cases are going to occur)
+
+4. Relationships
+Represented by dotted lines with open arrow - shows how you can go from one use case to another use case
