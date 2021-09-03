@@ -1,0 +1,20 @@
+There are many times when the very first task people need help on is choosing the architecture.
+
+1. Nodes
+Every part of a program is a node (The actual real world component like a front end system, OS, device, database, API, etc [any you can communicate with])
+
+2. Components
+Round off rectangular - (application, web server, type of database) - Usually it's the actual piece of software
+The most important thing is to not to worry about the little details, but being able to visualize the system that makes sense to you and others
+
+3. Artifacts
+Items that are surrounded by the angle brackets << >> [ sometimes followed by :WebServer Interface {OS=Linux} this is a formal way of defining the server and device in use ] - What type of server to deploy or application to be configured
+
+4. Links
+Lines that connect each node to one another
+
+5. Dependencies
+Be more specific on links - dotted lines with arrows that go in the direction of nodes it depends on
+
+6. Associations
+Way of connecting all of the nodes and show how they are associated with each other (web applications, load balancers)
