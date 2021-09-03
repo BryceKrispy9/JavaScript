@@ -1,0 +1,5 @@
+Activity diagram has process to deal with a quiz (Top box)
+If it's complex, then it uses swim lanes to divide the user/system activity
+-> Teacher, System, Student
+
+First thing to check is the roles and responsibilites of each swim lane
