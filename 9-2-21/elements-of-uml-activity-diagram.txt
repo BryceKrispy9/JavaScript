@@ -1,0 +1,22 @@
+Activity Diagrams
+
+1. Initial State or Start Point
+Thick circle with white circle in the middle - how a user or system will begin
+
+2. Activity or Action State
+Each box represents an activity or a state
+
+3. Action Flow
+Any time you see arrows (filled in arrow tip) is an action flow - taking one action state to another action state
+
+4. Decisions and Branching
+45 degree turned diamond (branch point or decision)
+
+5. Guards
+No and yes in a Decision (True or false)
+
+6. Final State or End Point
+Every activity should have a final state, stores result inside of system database (Large circle with smaller black circle inside)
+
+7. Swim Lanes 
+A way of organizing each activity (When a server, user or system should be performing a task)
