@@ -1,0 +1,5 @@
+Associations are one of the most important parts when building a class diagram
+
+Dotted line around box - Class that doesn't do anything but connect other classes
+
+* = many to many
