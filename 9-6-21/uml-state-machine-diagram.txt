@@ -1,0 +1,17 @@
+Elements
+1. Entry Point
+Large filled in black dot and it's where the user gets to the page and starts
+
+2. Choice
+Asking questions
+
+3. Constraint (Guard)
+This is the 'Yes' and the 'No' on a Choice
+
+4. State
+Rounded edge rectangles (Visitor and Converted in the example)
+
+5. Transition
+How you get from one state to another state (Line with an arrow with the direction of the transtition)
+
+User State changes
