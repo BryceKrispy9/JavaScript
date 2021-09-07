@@ -1,0 +1,13 @@
+Abstract Elements:
+1. Type
+2. Classifier
+
+Elements:
+1. Class
+2. Use Case
+3. Component
+4. Package
+5. Dependency
+6. Event
+
+Something that allows you to take other components inside system and show how they relate and dependencies
