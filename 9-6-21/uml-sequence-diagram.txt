@@ -1,0 +1,15 @@
+Elements
+1. Class Roles or Participants
+Isolate communication occurrences between participants and what each user is in charge of
+
+2. Activation or Execution Occurrence
+Event when it receives or sends a message (Uses a method or module)
+
+3. Messages
+Argument request, value request, combination request (All have their own responses) - Can be used to send/receive messages to/from an API
+
+4. Lifelines
+These are the dotted lines that go from the participant all the down the diagram and help us to easier see each of the stages and when messages are sent to the participants
+
+
+Visualize messages that are being passed between different components of the system (What is the input and what is the output)
