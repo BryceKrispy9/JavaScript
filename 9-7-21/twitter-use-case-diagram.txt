@@ -1,0 +1,16 @@
+Two actors - author and follower
+
+Author's can:
+
+-Write a tweet <<includes>> :
+Retweet a tweet
+Like a tweet
+Send a message
+
+<<Extension>> on the tweet
+Attach Image to Post
+
+Follower's can:
+
+-Do everything the author can (Interchangable)
+Interacts with other authors or followers
