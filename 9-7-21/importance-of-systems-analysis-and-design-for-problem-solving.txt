@@ -2,3 +2,13 @@ Take a step back and analyze/think through the problem using and understanding o
 Leverage UML to design certain systems and how the data should work before we touch any lines of code
 
 When it comes to problem solving, if you can design a system well then you can take that plan and write the entire program from scratch following the guidelines
+
+-----
+
+Software System
+
+1. High level system (User interaction)
+-Application, web app, mobile app
+
+2. Low level system (No user interaction)
+-Code library, operating system
